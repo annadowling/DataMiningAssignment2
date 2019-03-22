@@ -1,0 +1,32 @@
+## Clustering Task 1
+
+1. Reviewing the data and its data dictionary, choose candidate feature subsets (with a maximum of 10 features per subset) that might be used to cluster the internet usage data described above. Justify your choice of feature subsets.
+
+from sklearn.decomposition import PCA
+from sklearn.preprocessing import StandardScaler
+from linselect import FwdSelect
+
+# CONSTANTS
+KEEP = 10           # compression dimension
+WINDOW_SIZE = 30   # smoothing window size
+
+# LOAD AND SMOOTH THE DATA
+df = dfSub.rolling(WINDOW_SIZE).mean().iloc[WINDOW_SIZE:]
+print(df.iloc[:3])
+TICKERS = df.iloc[:, 1:].columns.values
+X  = df.iloc[:, 1:].values
+
+# PCA COMPRESSION
+s = StandardScaler()
+pca = PCA(n_components=KEEP)
+pca.fit(s.fit_transform(X))
+X_compressed_pca = pca.transform(s.fit_transform(X))
+
+# FEATURE SELECTION COMPRESSION
+selector = FwdSelect()
+selector.fit(X)
+X_compressed_linselect = X[:, selector.ordered_features[:KEEP]]
+
+# PRINT OUT TEN FIVE PCA COMPONENTs, TOP TEN COLUMNS
+print(pca.components_[:KEEP])
+print(TICKERS[selector.ordered_features][:KEEP])
