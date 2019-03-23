@@ -1,32 +1,71 @@
-## Clustering Task 1
+Age / Experience Related Purchasing Feature Subset
+The age related purchasing habits features were selected as an interesting feature subset in order to explore clustering trends in age based / influenced online purchasing versus non purchasing habits associated with internet usage. This has been grouped in dict ageFeatures below:
 
-1. Reviewing the data and its data dictionary, choose candidate feature subsets (with a maximum of 10 features per subset) that might be used to cluster the internet usage data described above. Justify your choice of feature subsets.
+agePurchasingFeatures = ['Age', 'Years_on_Internet', 'Web_Ordering', 'Registered_to_Vote', 'Country', 'Not_Purchasing_Too_complicated', 'Not_Purchasing_Prefer_people', 'Not_Purchasing_Privacy', 'Not_Purchasing_Security', 'Not_Purchasing_Easier_locally']
+agePurchasingFeatures = ['Age', 'Years_on_Internet', 'Web_Ordering', 'Registered_to_Vote', 'Country', 'Not_Purchasing_Too_complicated', 'Not_Purchasing_Prefer_people', 'Not_Purchasing_Privacy', 'Not_Purchasing_Security', 'Not_Purchasing_Easier_locally']
 
-from sklearn.decomposition import PCA
-from sklearn.preprocessing import StandardScaler
-from linselect import FwdSelect
+Clustering Task 2
+For each candidate feature subset, use hierarchical clustering, k-means, GMM and DBSCAN algorithms on it to identify possible groups of internet users.
 
-# CONSTANTS
-KEEP = 10           # compression dimension
-WINDOW_SIZE = 30   # smoothing window size
+Data Encoding
+This section will prepare data by use of one hot encoding to convert all column values to numeric for use with clustering algorithms.
 
-# LOAD AND SMOOTH THE DATA
-df = dfSub.rolling(WINDOW_SIZE).mean().iloc[WINDOW_SIZE:]
-print(df.iloc[:3])
-TICKERS = df.iloc[:, 1:].columns.values
-X  = df.iloc[:, 1:].values
+from sklearn.preprocessing import OneHotEncoder
+import random
+​
+featureStringCols = ['Years_on_Internet', 'Web_Ordering', 'Country']
+featureBoolCols = ['Registered_to_Vote','Not_Purchasing_Too_complicated', 'Not_Purchasing_Prefer_people',
+                                'Not_Purchasing_Privacy', 'Not_Purchasing_Security', 'Not_Purchasing_Easier_locally']
+featureIntCols = ['Age']
+​
+for col in featureIntCols:
+  df[col] = pd.to_numeric(df[col], errors='coerce')
+​
+for col in featureBoolCols:
+  df[col] = df[col].map({'0': 0, '1': 1})
+​
+ohe = dict()
+​
+# Choose a seed so that this code is repeatable, and select some features for the model
+random.seed(42)
+originalStrCols = random.sample(featureStringCols,k=3)
+print(originalStrCols)
+sampledBoolCols = random.sample(featureBoolCols,k=6)
+print(sampledBoolCols)
+sampledIntCols = random.sample(featureIntCols,k=1)
+print(sampledIntCols)
+​
+# Create an empty dataframe
+featureSub = pd.DataFrame()
+​
+for col in originalStrCols:
+  ohe[col] = OneHotEncoder(sparse=False)
+  X = ohe[col].fit_transform(df[col].values.reshape(-1,1))
+  # See https://stackoverflow.com/a/4843172
+  dfOneHot = pd.DataFrame(X, columns = [col+'-'+str(int(i)) for i in range(X.shape[1])])
+  featureSub = pd.concat([featureSub, dfOneHot], axis=1)
+​
+# Assign the index so that it matches that of the original df
+featureSub.set_axis(df.index, axis='index', inplace=True)
+​
+# Add in the sampledBoolcols
+featureSub = pd.concat([featureSub, df[sampledBoolCols]], axis=1)
+​
+# Add in the sampledIntcols
+featureSub = pd.concat([featureSub, df[sampledIntCols]], axis=1)
+​
+# The following is the matrix of samples x features
+featureSub.head(10)
 
-# PCA COMPRESSION
-s = StandardScaler()
-pca = PCA(n_components=KEEP)
-pca.fit(s.fit_transform(X))
-X_compressed_pca = pca.transform(s.fit_transform(X))
+Lastly, if you wish to transform the one-hot-encoded features back to their original form, you can use something like:
 
-# FEATURE SELECTION COMPRESSION
-selector = FwdSelect()
-selector.fit(X)
-X_compressed_linselect = X[:, selector.ordered_features[:KEEP]]
-
-# PRINT OUT TEN FIVE PCA COMPONENTs, TOP TEN COLUMNS
-print(pca.components_[:KEEP])
-print(TICKERS[selector.ordered_features][:KEEP])
+dx = dict()
+for col in originalStrCols:
+  derivedCol = [s for s in dfSub.columns if col+'-' in s]
+  dx[col] = ohe[col].inverse_transform(dfSub[derivedCol])
+print(dx)
+dx = dict()
+for col in originalStrCols:
+  derivedCol = [s for s in dfSub.columns if col+'-' in s]
+  dx[col] = ohe[col].inverse_transform(dfSub[derivedCol])
+print(dx)
