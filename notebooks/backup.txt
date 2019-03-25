@@ -69,3 +69,50 @@ for col in originalStrCols:
   derivedCol = [s for s in dfSub.columns if col+'-' in s]
   dx[col] = ohe[col].inverse_transform(dfSub[derivedCol])
 print(dx)
+
+
+import sklearn.mixture as mixture
+import time
+import seaborn as sns
+import sklearn.cluster as cluster
+import sys
+sys.path.append('../../w7support')
+import w7support as w8s
+
+# Make sure the pic subdirectory exists
+import os, errno
+try:
+    os.makedirs('pic')
+except OSError as e:
+    if e.errno != errno.EEXIST:
+        raise
+
+algName = "GaussianMixture"
+nClusters = 6
+
+for covType in ['spherical', 'full']:
+    clusterParams = {'n_components':6, 'covariance_type':covType, 'max_iter':100, 'random_state':0}
+    start_time = time.time()
+    gaussianMixture = mixture.GaussianMixture(**clusterParams)
+    #print(dir(gaussianMixture))
+    labels = gaussianMixture.fit(featureSub).predict(featureSub)
+    # Subsequently, this will be invoked using a function call of the form
+    # gaussianMixture, labels = w8s.fitClusterLabels(data, mixture.GaussianMixture, (), clusterParams)
+    end_time = time.time()
+    elapsed_time = end_time-start_time
+    print(elapsed_time)
+    #plt, elapsed_time = w8s.plot_clusters(data, mixture.GaussianMixture, (), clusterParams, plot_kwds)
+
+    plt.clf() # Start new plot
+    title = '{} Clusters found by {}'.format(str(nClusters),algName)
+    plt = w8s.plot_2dClusters(featureSub, labels, title, paletteName, fontSize, plot_kwds)
+    outFile = 'pic/{}{}_{}_generated.pdf'.format(algName,str(nClusters),covType)
+    plt.savefig(outFile)
+
+    title = '{} Clusters (with regions) found by {}'.format(str(nClusters),algName)
+    weights = gaussianMixture.weights_
+    means = gaussianMixture.means_
+    covariances = gaussianMixture.covariances_
+    plt = w8s.overlayEllipses(plt, weights, means, covariances)
+    outFile = 'pic/{}{}_{}_withEllipses_generated.pdf'.format(algName,str(nClusters),covType)
+    plt.savefig(outFile)
