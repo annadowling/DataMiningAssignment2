@@ -116,3 +116,19 @@ for covType in ['spherical', 'full']:
     plt = w8s.overlayEllipses(plt, weights, means, covariances)
     outFile = 'pic/{}{}_{}_withEllipses_generated.pdf'.format(algName,str(nClusters),covType)
     plt.savefig(outFile)
+
+
+
+    ax1 = tempDF.plot(kind='scatter', x='Age', y='Not_Purchasing_Too_complicated', color='r')
+    ax2 = tempDF.plot(kind='scatter', x='Age', y='Not_Purchasing_Easier_locally', color='g', ax=ax1)
+    ax3 = tempDF.plot(kind='scatter', x='Age', y='Not_Purchasing_Security', color='b', ax=ax1)
+    ax4 = tempDF.plot(kind='scatter', x='Age', y='Not_Purchasing_Prefer_people', color='purple', ax=ax1)
+    ax5 = tempDF.plot(kind='scatter', x='Age', y='Years_on_Internet-0', color='orange', ax=ax1)
+    ax6 = tempDF.plot(kind='scatter', x='Age', y='Years_on_Internet-1', color='pink', ax=ax1)
+    ax7 = tempDF.plot(kind='scatter', x='Age', y='Not_Purchasing_Privacy', color='black', ax=ax1)
+    ax8 = tempDF.plot(kind='scatter', x='Age', y='Years_on_Internet-2', color='black', ax=ax1)
+    ax9 = tempDF.plot(kind='scatter', x='Age', y='Years_on_Internet-3', color='black', ax=ax1)
+    ax10 = tempDF.plot(kind='scatter', x='Age', y='Years_on_Internet-4', color='black', ax=ax1)
+    ax11 = tempDF.plot(kind='scatter', x='Age', y='Web_Ordering-0', color='black', ax=ax1)
+    ax12 = tempDF.plot(kind='scatter', x='Age', y='Web_Ordering-1', color='black', ax=ax1)
+    ax13 = tempDF.plot(kind='scatter', x='Age', y='Web_Ordering-2', color='black', ax=ax1)
