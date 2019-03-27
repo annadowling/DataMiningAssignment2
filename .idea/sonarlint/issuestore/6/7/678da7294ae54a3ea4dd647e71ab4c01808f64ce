@@ -1,24 +1,24 @@
 
-qpython:S3776"TRefactor this function to reduce its Cognitive Complexity from 20 to the 15 allowed.(è·øÃ8î¹Î›-
-hpython:S1542"KRename function "EM" to match the regular expression ^[a-z_][a-z0-9_]{2,}$.(è·øÃ8î¹Î›-
 opython:S117"SRename this local variable "Vt" to match the regular expression ^[_a-z][a-z0-9_]*$.(ü£šˆ8î¹Î›-
-upython:S1542"XRename function "plot_2dClusters" to match the regular expression ^[a-z_][a-z0-9_]{2,}$.(§Çû8î¹Î›-
-zpython:S1542"XRename function "overlayEllipses" to match the regular expression ^[a-z_][a-z0-9_]{2,}$.(â›…’ûÿÿÿÿ8î¹Î›-
-spython:S117"WRename this parameter "paletteName" to match the regular expression ^[_a-z][a-z0-9_]*$.(§Çû8î¹Î›-
-python:S1542"]Rename function "find_kMeans_clusters" to match the regular expression ^[a-z_][a-z0-9_]{2,}$.(ÅšÿÜøÿÿÿÿ8î¹Î›-
-ppython:S117"TRename this parameter "fontSize" to match the regular expression ^[_a-z][a-z0-9_]*$.(æ³¿ë8î¹Î›-
-npython:S117"MRename this parameter "X" to match the regular expression ^[_a-z][a-z0-9_]*$.(ÅšÿÜøÿÿÿÿ8î¹Î›-
-npython:S117"MRename this parameter "X" to match the regular expression ^[_a-z][a-z0-9_]*$.(ÇçÆŸúÿÿÿÿ8î¹Î›-
-npython:S117"MRename this parameter "X" to match the regular expression ^[_a-z][a-z0-9_]*$.(ë¾ìÕúÿÿÿÿ8î¹Î›-
-spython:S117"WRename this parameter "paletteName" to match the regular expression ^[_a-z][a-z0-9_]*$.(æ³¿ë8î¹Î›-
-Fpython:S1481")Remove the unused local variable "alpha".(Äø É8î¹Î›-
-ipython:S117"MRename this parameter "X" to match the regular expression ^[_a-z][a-z0-9_]*$.(—šŒº8î¹Î›-
-:python:S125"Remove this commented out code.(‹§™38î¹Î›-
-Rpython:S1481"0Remove the unused local variable "num_clusters".(§°àÃøÿÿÿÿ8î¹Î›-
-ppython:S117"TRename this parameter "fontSize" to match the regular expression ^[_a-z][a-z0-9_]*$.(§Çû8î¹Î›-
-opython:S117"SRename this local variable "Vt" to match the regular expression ^[_a-z][a-z0-9_]*$.(ü£šˆ8î¹Î›-
-wpython:S1542"ZRename function "generate_MoG_data" to match the regular expression ^[a-z_][a-z0-9_]{2,}$.(ÿ†¤à8î¹Î›-
 npython:S117"MRename this parameter "Z" to match the regular expression ^[_a-z][a-z0-9_]*$.(Íó‹Şúÿÿÿÿ8î¹Î›-
-python:S1542"dRename function "plot_2dClustersWithEllipses" to match the regular expression ^[a-z_][a-z0-9_]{2,}$.(—šŒº8î¹Î›-
-{python:S1542"YRename function "fitClusterLabels" to match the regular expression ^[a-z_][a-z0-9_]{2,}$.(¾”¢ÿÿÿÿÿ8î¹Î›-
+npython:S117"MRename this parameter "X" to match the regular expression ^[_a-z][a-z0-9_]*$.(ÅšÿÜøÿÿÿÿ8î¹Î›-
+hpython:S1542"KRename function "EM" to match the regular expression ^[a-z_][a-z0-9_]{2,}$.(è·øÃ8î¹Î›-
+spython:S117"WRename this parameter "paletteName" to match the regular expression ^[_a-z][a-z0-9_]*$.(§Çû8î¹Î›-
+zpython:S1542"XRename function "overlayEllipses" to match the regular expression ^[a-z_][a-z0-9_]{2,}$.(â›…’ûÿÿÿÿ8î¹Î›-
+ipython:S117"MRename this parameter "X" to match the regular expression ^[_a-z][a-z0-9_]*$.(—šŒº8î¹Î›-
 wpython:S1542"URename function "overlayDisks" to match the regular expression ^[a-z_][a-z0-9_]{2,}$.(ôÅèĞûÿÿÿÿ8î¹Î›-
+ppython:S117"TRename this parameter "fontSize" to match the regular expression ^[_a-z][a-z0-9_]*$.(æ³¿ë8î¹Î›-
+{python:S1542"YRename function "fitClusterLabels" to match the regular expression ^[a-z_][a-z0-9_]{2,}$.(¾”¢ÿÿÿÿÿ8î¹Î›-
+ppython:S117"TRename this parameter "fontSize" to match the regular expression ^[_a-z][a-z0-9_]*$.(§Çû8î¹Î›-
+npython:S117"MRename this parameter "X" to match the regular expression ^[_a-z][a-z0-9_]*$.(ë¾ìÕúÿÿÿÿ8î¹Î›-
+wpython:S1542"ZRename function "generate_MoG_data" to match the regular expression ^[a-z_][a-z0-9_]{2,}$.(ÿ†¤à8î¹Î›-
+spython:S117"WRename this parameter "paletteName" to match the regular expression ^[_a-z][a-z0-9_]*$.(æ³¿ë8î¹Î›-
+Rpython:S1481"0Remove the unused local variable "num_clusters".(§°àÃøÿÿÿÿ8î¹Î›-
+npython:S117"MRename this parameter "X" to match the regular expression ^[_a-z][a-z0-9_]*$.(ÇçÆŸúÿÿÿÿ8î¹Î›-
+python:S1542"dRename function "plot_2dClustersWithEllipses" to match the regular expression ^[a-z_][a-z0-9_]{2,}$.(—šŒº8î¹Î›-
+python:S1542"]Rename function "find_kMeans_clusters" to match the regular expression ^[a-z_][a-z0-9_]{2,}$.(ÅšÿÜøÿÿÿÿ8î¹Î›-
+upython:S1542"XRename function "plot_2dClusters" to match the regular expression ^[a-z_][a-z0-9_]{2,}$.(§Çû8î¹Î›-
+Fpython:S1481")Remove the unused local variable "alpha".(Äø É8î¹Î›-
+opython:S117"SRename this local variable "Vt" to match the regular expression ^[_a-z][a-z0-9_]*$.(ü£šˆ8î¹Î›-
+:python:S125"Remove this commented out code.(‹§™38î¹Î›-
+qpython:S3776"TRefactor this function to reduce its Cognitive Complexity from 20 to the 15 allowed.(è·øÃ8î¹Î›-
