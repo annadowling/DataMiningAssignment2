@@ -1,0 +1,54 @@
+node_modules
+.cache/
+
+package-lock.json
+
+/.slcache
+### Eclipse ###
+.classpath
+.project
+.settings/
+
+### Intellij ###
+# Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm
+
+*.iml
+
+## Directory-based project format:
+.idea/
+
+## File-based project format:
+*.ipr
+*.iws
+
+## Plugin-specific files:
+
+# IntelliJ
+/out/
+
+# mpeltonen/sbt-idea plugin
+.idea_modules/
+
+# JIRA plugin
+atlassian*
+
+# Gradle
+.gradle
+.gradle/
+
+#
+build
+web-app/gwt
+web-app/WEB-INF/classes
+target
+web-app/META-INF/
+web-app/WEB-INF/context.xml
+
+# Crashlytics plugin (for Android Studio and IntelliJ)
+com_crashlytics_export_strings.xml
+crashlytics.properties
+crashlytics-build.properties
+
+# Mac
+.DS_Store
+
