@@ -4,6 +4,14 @@
     <list default="true" id="a3207aec-c1f4-4b34-a3bd-9630e5a1d3ae" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/clustering-notebooks/.ipynb_checkpoints/DBScan-FeatureSet-checkpoint.ipynb" afterPath="$PROJECT_DIR$/clustering-notebooks/.ipynb_checkpoints/DBScan-FeatureSet-checkpoint.ipynb" />
+      <change beforePath="$PROJECT_DIR$/clustering-notebooks/.ipynb_checkpoints/Hierarchical-Clustering-Attempt-2-checkpoint.ipynb" afterPath="$PROJECT_DIR$/clustering-notebooks/.ipynb_checkpoints/Hierarchical-Clustering-Attempt-2-checkpoint.ipynb" />
+      <change beforePath="$PROJECT_DIR$/clustering-notebooks/.ipynb_checkpoints/K-Means-FeatureSet-checkpoint.ipynb" afterPath="$PROJECT_DIR$/clustering-notebooks/.ipynb_checkpoints/K-Means-FeatureSet-checkpoint.ipynb" />
+      <change beforePath="$PROJECT_DIR$/clustering-notebooks/DBScan-FeatureSet.ipynb" afterPath="$PROJECT_DIR$/clustering-notebooks/DBScan-FeatureSet.ipynb" />
+      <change beforePath="$PROJECT_DIR$/clustering-notebooks/Hierarchical-Clustering-Attempt-2.ipynb" afterPath="$PROJECT_DIR$/clustering-notebooks/Hierarchical-Clustering-Attempt-2.ipynb" />
+      <change beforePath="$PROJECT_DIR$/clustering-notebooks/K-Means-FeatureSet.ipynb" afterPath="$PROJECT_DIR$/clustering-notebooks/K-Means-FeatureSet.ipynb" />
+      <change beforePath="$PROJECT_DIR$/clustering-notebooks/pic/HDBSCAN3_200_generated.pdf" afterPath="$PROJECT_DIR$/clustering-notebooks/pic/HDBSCAN3_200_generated.pdf" />
+      <change beforePath="$PROJECT_DIR$/clustering-notebooks/pic/HDBSCAN3_90_generated.pdf" afterPath="$PROJECT_DIR$/clustering-notebooks/pic/HDBSCAN3_90_generated.pdf" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -379,12 +387,12 @@
       <workItem from="1553802005573" duration="1645000" />
       <workItem from="1553853015281" duration="632000" />
       <workItem from="1553860468829" duration="4149000" />
-      <workItem from="1553936854320" duration="33000" />
+      <workItem from="1553936854320" duration="598000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36557000" />
+    <option name="totallyTimeSpent" value="37122000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="812" extended-state="6" />
