@@ -15,3 +15,5 @@ M
 resources/w6support/helper.py,0/a/0af7ed6c926f2550abb6652106f6e4dc0d29996b
 k
 ;classification-notebooks/Practical_B_PCA_introduction.ipynb,5/a/5af08b3953bb5ca68369cead37bdf966203973e2
+o
+?classification-notebooks/DecisionTree-MajorOccupation-PCA.ipynb,9/f/9f329b132602d16d048c4fe2ca64b6e0c1d53a1a
