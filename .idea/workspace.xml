@@ -2,11 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a3207aec-c1f4-4b34-a3bd-9630e5a1d3ae" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/classification-notebooks/.ipynb_checkpoints/Data Pre-Processing-checkpoint.ipynb" afterPath="$PROJECT_DIR$/classification-notebooks/.ipynb_checkpoints/Data Pre-Processing-checkpoint.ipynb" />
+      <change beforePath="$PROJECT_DIR$/classification-notebooks/.ipynb_checkpoints/Practical_B_PCA_introduction-checkpoint.ipynb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/classification-notebooks/.ipynb_checkpoints/k-nearest-neighbor-major-occupation-checkpoint.ipynb" afterPath="$PROJECT_DIR$/classification-notebooks/.ipynb_checkpoints/k-nearest-neighbor-major-occupation-checkpoint.ipynb" />
       <change beforePath="$PROJECT_DIR$/classification-notebooks/Data Pre-Processing.ipynb" afterPath="$PROJECT_DIR$/classification-notebooks/Data Pre-Processing.ipynb" />
+      <change beforePath="$PROJECT_DIR$/classification-notebooks/Practical_B_PCA_introduction.ipynb" afterPath="" />
       <change beforePath="$PROJECT_DIR$/classification-notebooks/educationFeatureSubset.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/classification-notebooks/k-nearest-neighbor-major-occupation.ipynb" afterPath="$PROJECT_DIR$/classification-notebooks/k-nearest-neighbor-major-occupation.ipynb" />
       <change beforePath="$PROJECT_DIR$/classification-notebooks/occupationFeatureSubset.csv" afterPath="" />
       <change beforePath="$PROJECT_DIR$/classification-notebooks/oheTransformedData.csv" afterPath="" />
     </list>
@@ -413,15 +416,15 @@
       <workItem from="1554194801530" duration="2491000" />
       <workItem from="1554220984777" duration="1563000" />
       <workItem from="1554225951590" duration="669000" />
-      <workItem from="1554228033287" duration="415000" />
+      <workItem from="1554228033287" duration="2003000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="56602000" />
+    <option name="totallyTimeSpent" value="58190000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="815" extended-state="6" />
+    <frame x="0" y="23" width="1440" height="813" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="DB Execution Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -448,7 +451,7 @@
       <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="0" y="0" width="310" height="612" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14634146" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1467626" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27539343" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290735" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="SonarLint" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -594,6 +597,14 @@
     <entry file="file://$PROJECT_DIR$/classification-notebooks/educationFeatureSubset.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classification-notebooks/occupationFeatureSubset.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-11">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
