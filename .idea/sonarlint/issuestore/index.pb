@@ -13,3 +13,5 @@ b
 2classification-notebooks/Data Pre-Processing.ipynb,4/a/4a3ea0861d2c773af5f757ec01b49bb19e5bb9b8
 M
 resources/w6support/helper.py,0/a/0af7ed6c926f2550abb6652106f6e4dc0d29996b
+k
+;classification-notebooks/Practical_B_PCA_introduction.ipynb,5/a/5af08b3953bb5ca68369cead37bdf966203973e2
