@@ -2,78 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a3207aec-c1f4-4b34-a3bd-9630e5a1d3ae" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/classification-notebooks/Case1_IrisData.ipynb" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/classification-notebooks/.ipynb_checkpoints/Data Pre-Processing-checkpoint.ipynb" afterPath="$PROJECT_DIR$/classification-notebooks/.ipynb_checkpoints/Data Pre-Processing-checkpoint.ipynb" />
-      <change beforePath="$PROJECT_DIR$/classification-notebooks/.ipynb_checkpoints/k-nearest-neighbor-major-occupation-checkpoint.ipynb" afterPath="$PROJECT_DIR$/classification-notebooks/.ipynb_checkpoints/k-nearest-neighbor-major-occupation-checkpoint.ipynb" />
-      <change beforePath="$PROJECT_DIR$/classification-notebooks/Data Pre-Processing.ipynb" afterPath="$PROJECT_DIR$/classification-notebooks/Data Pre-Processing.ipynb" />
-      <change beforePath="$PROJECT_DIR$/classification-notebooks/decisionTreeEducationPCA.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/classification-notebooks/educationFeatureSubset.csv" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/classification-notebooks/k-nearest-neighbor-major-occupation.ipynb" afterPath="$PROJECT_DIR$/classification-notebooks/k-nearest-neighbor-major-occupation.ipynb" />
-      <change beforePath="$PROJECT_DIR$/classification-notebooks/k-nearest/majoroccupation/k_3_nearest-neighbours_Occupation_Age_Gender.pdf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/classification-notebooks/k-nearest/majoroccupation/k_3_nearest-neighbours_Occupation_Age_MaritalStatus.pdf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/classification-notebooks/k-nearest/majoroccupation/k_3_nearest-neighbours_Occupation_Age_OpinionsOnCensorship.pdf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/classification-notebooks/k-nearest/majoroccupation/k_3_nearest-neighbours_Occupation_Age_Unnamed0.pdf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/classification-notebooks/k-nearest/majoroccupation/k_3_nearest-neighbours_Occupation_Age_WebOrdering.pdf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/classification-notebooks/k-nearest/majoroccupation/k_3_nearest-neighbours_Occupation_Age_YearsOnInternet.pdf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/classification-notebooks/k-nearest/majoroccupation/k_3_nearest-neighbours_Occupation_Gender_MaritalStatus.pdf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/classification-notebooks/k-nearest/majoroccupation/k_3_nearest-neighbours_Occupation_Gender_OpinionsOnCensorship.pdf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/classification-notebooks/k-nearest/majoroccupation/k_3_nearest-neighbours_Occupation_Gender_Unnamed0.pdf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/classification-notebooks/k-nearest/majoroccupation/k_3_nearest-neighbours_Occupation_Gender_WebOrdering.pdf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/classification-notebooks/k-nearest/majoroccupation/k_3_nearest-neighbours_Occupation_Gender_YearsOnInternet.pdf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/classification-notebooks/k-nearest/majoroccupation/k_3_nearest-neighbours_Occupation_MaritalStatus_OpinionsOnCensorship.pdf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/classification-notebooks/k-nearest/majoroccupation/k_3_nearest-neighbours_Occupation_MaritalStatus_Unnamed0.pdf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/classification-notebooks/k-nearest/majoroccupation/k_3_nearest-neighbours_Occupation_MaritalStatus_WebOrdering.pdf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/classification-notebooks/k-nearest/majoroccupation/k_3_nearest-neighbours_Occupation_MaritalStatus_YearsOnInternet.pdf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/classification-notebooks/k-nearest/majoroccupation/k_3_nearest-neighbours_Occupation_OpinionsOnCensorship_Unnamed0.pdf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/classification-notebooks/k-nearest/majoroccupation/k_3_nearest-neighbours_Occupation_OpinionsOnCensorship_WebOrdering.pdf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/classification-notebooks/k-nearest/majoroccupation/k_3_nearest-neighbours_Occupation_OpinionsOnCensorship_YearsOnInternet.pdf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/classification-notebooks/k-nearest/majoroccupation/k_3_nearest-neighbours_Occupation_Unnamed0_WebOrdering.pdf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/classification-notebooks/k-nearest/majoroccupation/k_3_nearest-neighbours_Occupation_Unnamed0_YearsOnInternet.pdf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/classification-notebooks/k-nearest/majoroccupation/k_3_nearest-neighbours_Occupation_WebOrdering_YearsOnInternet.pdf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/classification-notebooks/k-nearest/majoroccupation/k_5_nearest-neighbours_Occupation_Age_Gender.pdf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/classification-notebooks/k-nearest/majoroccupation/k_5_nearest-neighbours_Occupation_Age_MaritalStatus.pdf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/classification-notebooks/k-nearest/majoroccupation/k_5_nearest-neighbours_Occupation_Age_OpinionsOnCensorship.pdf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/classification-notebooks/k-nearest/majoroccupation/k_5_nearest-neighbours_Occupation_Age_Unnamed0.pdf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/classification-notebooks/k-nearest/majoroccupation/k_5_nearest-neighbours_Occupation_Age_WebOrdering.pdf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/classification-notebooks/k-nearest/majoroccupation/k_5_nearest-neighbours_Occupation_Age_YearsOnInternet.pdf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/classification-notebooks/k-nearest/majoroccupation/k_5_nearest-neighbours_Occupation_Gender_MaritalStatus.pdf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/classification-notebooks/k-nearest/majoroccupation/k_5_nearest-neighbours_Occupation_Gender_OpinionsOnCensorship.pdf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/classification-notebooks/k-nearest/majoroccupation/k_5_nearest-neighbours_Occupation_Gender_Unnamed0.pdf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/classification-notebooks/k-nearest/majoroccupation/k_5_nearest-neighbours_Occupation_Gender_WebOrdering.pdf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/classification-notebooks/k-nearest/majoroccupation/k_5_nearest-neighbours_Occupation_Gender_YearsOnInternet.pdf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/classification-notebooks/k-nearest/majoroccupation/k_5_nearest-neighbours_Occupation_MaritalStatus_OpinionsOnCensorship.pdf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/classification-notebooks/k-nearest/majoroccupation/k_5_nearest-neighbours_Occupation_MaritalStatus_Unnamed0.pdf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/classification-notebooks/k-nearest/majoroccupation/k_5_nearest-neighbours_Occupation_MaritalStatus_WebOrdering.pdf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/classification-notebooks/k-nearest/majoroccupation/k_5_nearest-neighbours_Occupation_MaritalStatus_YearsOnInternet.pdf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/classification-notebooks/k-nearest/majoroccupation/k_5_nearest-neighbours_Occupation_OpinionsOnCensorship_Unnamed0.pdf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/classification-notebooks/k-nearest/majoroccupation/k_5_nearest-neighbours_Occupation_OpinionsOnCensorship_WebOrdering.pdf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/classification-notebooks/k-nearest/majoroccupation/k_5_nearest-neighbours_Occupation_OpinionsOnCensorship_YearsOnInternet.pdf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/classification-notebooks/k-nearest/majoroccupation/k_5_nearest-neighbours_Occupation_Unnamed0_WebOrdering.pdf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/classification-notebooks/k-nearest/majoroccupation/k_5_nearest-neighbours_Occupation_Unnamed0_YearsOnInternet.pdf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/classification-notebooks/k-nearest/majoroccupation/k_5_nearest-neighbours_Occupation_WebOrdering_YearsOnInternet.pdf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/classification-notebooks/k-nearest/majoroccupation/k_7_nearest-neighbours_Occupation_Age_Gender.pdf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/classification-notebooks/k-nearest/majoroccupation/k_7_nearest-neighbours_Occupation_Age_MaritalStatus.pdf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/classification-notebooks/k-nearest/majoroccupation/k_7_nearest-neighbours_Occupation_Age_OpinionsOnCensorship.pdf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/classification-notebooks/k-nearest/majoroccupation/k_7_nearest-neighbours_Occupation_Age_Unnamed0.pdf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/classification-notebooks/k-nearest/majoroccupation/k_7_nearest-neighbours_Occupation_Age_WebOrdering.pdf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/classification-notebooks/k-nearest/majoroccupation/k_7_nearest-neighbours_Occupation_Age_YearsOnInternet.pdf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/classification-notebooks/k-nearest/majoroccupation/k_7_nearest-neighbours_Occupation_Gender_MaritalStatus.pdf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/classification-notebooks/k-nearest/majoroccupation/k_7_nearest-neighbours_Occupation_Gender_OpinionsOnCensorship.pdf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/classification-notebooks/k-nearest/majoroccupation/k_7_nearest-neighbours_Occupation_Gender_Unnamed0.pdf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/classification-notebooks/k-nearest/majoroccupation/k_7_nearest-neighbours_Occupation_Gender_WebOrdering.pdf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/classification-notebooks/k-nearest/majoroccupation/k_7_nearest-neighbours_Occupation_Gender_YearsOnInternet.pdf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/classification-notebooks/k-nearest/majoroccupation/k_7_nearest-neighbours_Occupation_MaritalStatus_OpinionsOnCensorship.pdf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/classification-notebooks/k-nearest/majoroccupation/k_7_nearest-neighbours_Occupation_MaritalStatus_Unnamed0.pdf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/classification-notebooks/k-nearest/majoroccupation/k_7_nearest-neighbours_Occupation_MaritalStatus_WebOrdering.pdf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/classification-notebooks/k-nearest/majoroccupation/k_7_nearest-neighbours_Occupation_MaritalStatus_YearsOnInternet.pdf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/classification-notebooks/k-nearest/majoroccupation/k_7_nearest-neighbours_Occupation_OpinionsOnCensorship_Unnamed0.pdf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/classification-notebooks/k-nearest/majoroccupation/k_7_nearest-neighbours_Occupation_OpinionsOnCensorship_WebOrdering.pdf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/classification-notebooks/k-nearest/majoroccupation/k_7_nearest-neighbours_Occupation_OpinionsOnCensorship_YearsOnInternet.pdf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/classification-notebooks/k-nearest/majoroccupation/k_7_nearest-neighbours_Occupation_Unnamed0_WebOrdering.pdf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/classification-notebooks/k-nearest/majoroccupation/k_7_nearest-neighbours_Occupation_Unnamed0_YearsOnInternet.pdf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/classification-notebooks/k-nearest/majoroccupation/k_7_nearest-neighbours_Occupation_WebOrdering_YearsOnInternet.pdf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/classification-notebooks/occupationFeatureSubset.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/classification-notebooks/.ipynb_checkpoints/DecisionTree-EducationAttainment-PCA-checkpoint.ipynb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/classification-notebooks/.ipynb_checkpoints/DecisionTree-MajorOccupation-PCA-checkpoint.ipynb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/classification-notebooks/.ipynb_checkpoints/DecisionTree-MajorOccupation-checkpoint.ipynb" afterPath="$PROJECT_DIR$/classification-notebooks/.ipynb_checkpoints/DecisionTree-MajorOccupation-checkpoint.ipynb" />
+      <change beforePath="$PROJECT_DIR$/classification-notebooks/DecisionTree-EducationAttainment-PCA.ipynb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/classification-notebooks/DecisionTree-MajorOccupation-PCA.ipynb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/classification-notebooks/DecisionTree-MajorOccupation.ipynb" afterPath="$PROJECT_DIR$/classification-notebooks/DecisionTree-MajorOccupation.ipynb" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -256,6 +191,12 @@
               <item name="Assignment2" type="b2602c69:ProjectViewProjectNode" />
               <item name="Assignment2" type="462c0819:PsiDirectoryNode" />
               <item name="classification-notebooks" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Assignment2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Assignment2" type="462c0819:PsiDirectoryNode" />
+              <item name="classification-notebooks" type="462c0819:PsiDirectoryNode" />
+              <item name="decisionTree" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Assignment2" type="b2602c69:ProjectViewProjectNode" />
@@ -486,12 +427,12 @@
       <workItem from="1554225951590" duration="669000" />
       <workItem from="1554228033287" duration="2557000" />
       <workItem from="1554294102318" duration="1872000" />
-      <workItem from="1554297154926" duration="2947000" />
+      <workItem from="1554297154926" duration="4670000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="63563000" />
+    <option name="totallyTimeSpent" value="65286000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1920" height="812" extended-state="0" />
