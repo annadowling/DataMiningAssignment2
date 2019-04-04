@@ -2,13 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a3207aec-c1f4-4b34-a3bd-9630e5a1d3ae" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/classification-notebooks/.ipynb_checkpoints/DecisionTree-EducationAttainment-PCA-checkpoint.ipynb" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/classification-notebooks/.ipynb_checkpoints/DecisionTree-MajorOccupation-PCA-checkpoint.ipynb" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/classification-notebooks/.ipynb_checkpoints/DecisionTree-MajorOccupation-checkpoint.ipynb" afterPath="$PROJECT_DIR$/classification-notebooks/.ipynb_checkpoints/DecisionTree-MajorOccupation-checkpoint.ipynb" />
-      <change beforePath="$PROJECT_DIR$/classification-notebooks/DecisionTree-EducationAttainment-PCA.ipynb" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/classification-notebooks/DecisionTree-MajorOccupation-PCA.ipynb" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/classification-notebooks/DecisionTree-MajorOccupation.ipynb" afterPath="$PROJECT_DIR$/classification-notebooks/DecisionTree-MajorOccupation.ipynb" />
+      <change beforePath="$PROJECT_DIR$/classification-notebooks/.ipynb_checkpoints/Data Pre-Processing-checkpoint.ipynb" afterPath="$PROJECT_DIR$/classification-notebooks/.ipynb_checkpoints/Data Pre-Processing-checkpoint.ipynb" />
+      <change beforePath="$PROJECT_DIR$/classification-notebooks/.ipynb_checkpoints/RandomForest-Education-Attainment-checkpoint.ipynb" afterPath="$PROJECT_DIR$/classification-notebooks/.ipynb_checkpoints/RandomForest-Education-Attainment-checkpoint.ipynb" />
+      <change beforePath="$PROJECT_DIR$/classification-notebooks/.ipynb_checkpoints/RandomForest-Major-Occupation-checkpoint.ipynb" afterPath="$PROJECT_DIR$/classification-notebooks/.ipynb_checkpoints/RandomForest-Major-Occupation-checkpoint.ipynb" />
+      <change beforePath="$PROJECT_DIR$/classification-notebooks/Data Pre-Processing.ipynb" afterPath="$PROJECT_DIR$/classification-notebooks/Data Pre-Processing.ipynb" />
+      <change beforePath="$PROJECT_DIR$/classification-notebooks/RandomForest-Education-Attainment.ipynb" afterPath="$PROJECT_DIR$/classification-notebooks/RandomForest-Education-Attainment.ipynb" />
+      <change beforePath="$PROJECT_DIR$/classification-notebooks/RandomForest-Major-Occupation.ipynb" afterPath="$PROJECT_DIR$/classification-notebooks/RandomForest-Major-Occupation.ipynb" />
+      <change beforePath="$PROJECT_DIR$/classification-notebooks/educationFeatureSubset.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/classification-notebooks/occupationFeatureSubset.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/classification-notebooks/randomForest/randomforestmodelEAPCA.pkl" afterPath="$PROJECT_DIR$/classification-notebooks/randomForest/randomforestmodelEAPCA.pkl" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -106,10 +110,11 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1920" />
     <option name="y" value="23" />
     <option name="width" value="1920" />
-    <option name="height" value="812" />
+    <option name="height" value="981" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -177,9 +182,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -192,39 +194,14 @@
               <item name="Assignment2" type="462c0819:PsiDirectoryNode" />
               <item name="classification-notebooks" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Assignment2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Assignment2" type="462c0819:PsiDirectoryNode" />
-              <item name="classification-notebooks" type="462c0819:PsiDirectoryNode" />
-              <item name="decisionTree" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Assignment2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Assignment2" type="462c0819:PsiDirectoryNode" />
-              <item name="classification-notebooks" type="462c0819:PsiDirectoryNode" />
-              <item name="k-nearest" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Assignment2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Assignment2" type="462c0819:PsiDirectoryNode" />
-              <item name="clustering-notebooks" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Assignment2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Assignment2" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Assignment2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Assignment2" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="w6support" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -427,15 +404,16 @@
       <workItem from="1554225951590" duration="669000" />
       <workItem from="1554228033287" duration="2557000" />
       <workItem from="1554294102318" duration="1872000" />
-      <workItem from="1554297154926" duration="4670000" />
+      <workItem from="1554297154926" duration="4951000" />
+      <workItem from="1554367800216" duration="2448000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="65286000" />
+    <option name="totallyTimeSpent" value="68015000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1920" height="812" extended-state="0" />
+    <frame x="1920" y="23" width="1920" height="979" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="DB Execution Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -462,9 +440,9 @@
       <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32960597" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="0" y="0" width="310" height="612" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4740634" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3821138" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28328007" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290735" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28061768" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="SonarLint" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -592,13 +570,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/classification-notebooks/Practical_B_PCA_introduction.ipynb" />
-    <entry file="file://$PROJECT_DIR$/classification-notebooks/DecisionTree-MajorOccupation-PCA.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/classification-notebooks/DecisionTree-MajorOccupation-PCA.ipynb" />
     <entry file="file://$PROJECT_DIR$/classification-notebooks/educationFeatureSubset.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -615,13 +587,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/classification-notebooks/Case1_IrisData.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/classification-notebooks/Case1_IrisData.ipynb" />
   </component>
   <component name="masterDetails">
     <states>
